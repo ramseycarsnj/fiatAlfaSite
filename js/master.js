@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#footerHideButton').hide();
   $('.siteButton').hover(function(){
-    $('html').css({'background': '#232930 url(../inc/' + this.id + 'Ext.jpg) no-repeat center center fixed','background-size':'cover','-webkit-background-size' : 'cover','-moz-background-size' : 'cover','-o-background-size' : 'cover'}).delay(400).fadeIn(400);
+    $('html').css({'background': '#232930 url(inc/' + this.id + 'Ext.jpg) no-repeat center center fixed','background-size':'cover','-webkit-background-size' : 'cover','-moz-background-size' : 'cover','-o-background-size' : 'cover'}).delay(400).fadeIn(400);
   });
 
   $('#footerButton').click(function(){
