@@ -1,0 +1,327 @@
+html {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: url(../inc/alfaExt.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: background .4s; }
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+header {
+  padding: 0 20px;
+  margin: 0;
+  border: 0;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 100; }
+  header a {
+    color: inherit;
+    text-decoration: none; }
+  header a:hover {
+    color: inherit;
+    text-decoration: underline; }
+  header img {
+    padding: 20px 0;
+    margin: 0;
+    border: 0;
+    vertical-align: middle;
+    width: 80px; }
+
+#fiatHeading {
+  position: absolute;
+  top: 40px;
+  padding: 0 30px; }
+
+#leftContent {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+#rightContent {
+  top: 0px;
+  position: absolute;
+  right: 40px;
+  padding: 20px;
+  margin: 0;
+  border: 0;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.3;
+  display: inline; }
+  #rightContent strong {
+    padding: 0 10px 0 0;
+    color: #27282a; }
+  #rightContent h1 {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    border: 0; }
+
+section {
+  width: 80%;
+  height: 60vh;
+  margin: 5% auto;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  position: relative; }
+
+.buttonContainer {
+  position: relative;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 50vh;
+  margin: 5% auto; }
+  .buttonContainer button {
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #000000;
+    border: 0;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: rgba(177, 22, 54, 0);
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.08s ease-in;
+    -o-transition: 0.08s ease-in;
+    -ms-transition: 0.08s ease-in;
+    -moz-transition: 0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+    transition: background-color .3s, color .3s;
+    z-index: 9999; }
+  .buttonContainer button:hover {
+    z-index: 800;
+    background-color: #880A30;
+    height: 100%;
+    width: 100%;
+    color: #ffffff; }
+  .buttonContainer img {
+    height: 40%;
+    z-index: 1; }
+
+#cellRightContent {
+  display: none; }
+
+.background-divs {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  visibility: visible;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+footer {
+  background-color: #141618;
+  color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: bottom;
+  transition: height .4s;
+  margin: 10px 0 0px 0; }
+  footer li {
+    list-style: none; }
+
+#footerButton {
+  font-weight: 500;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  font-size: 20px;
+  width: 100%;
+  background-color: inherit;
+  color: #ffffff;
+  outline: none; }
+
+#footerButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  outline: none; }
+
+#footerHideButton {
+  font-weight: 500;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  font-size: 20px;
+  width: 100%;
+  background-color: inherit;
+  color: #ffffff;
+  outline: none; }
+
+#footerHideButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  outline: none; }
+
+#footerContent {
+  flex: 1 flex auto;
+  margin: auto 1% auto 1%;
+  position: absolute;
+  right: 0; }
+
+#footerContent2 {
+  flex: 1 flex auto;
+  margin: auto 1% auto 1%;
+  position: absolute;
+  left: 0; }
+
+#leftSection {
+  height: 459px;
+  width: 65vw;
+  padding: 20px;
+  margin: 20px;
+  border: 0;
+  text-align: left;
+  color: #ffffff;
+  background-color: #880A30; }
+
+.phone {
+  font-weight: 300; }
+
+.hoursSection {
+  padding: 20px;
+  margin: 20px;
+  border: 0;
+  width: 270px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #880A30; }
+  .hoursSection a {
+    color: #ffffff;
+    text-decoration: none; }
+  .hoursSection h3 {
+    padding: 0 0 30px 0;
+    border: 0;
+    margin: 0; }
+  .hoursSection ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+    line-height: 1.3; }
+
+.hoursSection:hover {
+  background-color: #630622;
+  cursor: pointer; }
+
+#footerContentContainer {
+  display: flex;
+  flex-direction: row; }
+
+#mobileMap {
+  display: none; }
+
+@media screen and (max-width: 1155px) {
+  #rightContent {
+    top: 75px;
+    display: block;
+    padding: 0; }
+    #rightContent p {
+      display: inline-block; }
+    #rightContent h1 {
+      display: inline;
+      margin: 0 20px; }
+  #leftSection {
+    width: 50vw; }
+  header {
+    height: 140px; }
+  section {
+    flex-direction: column;
+    width: 100%; }
+    section h2 {
+      display: block; }
+    section button {
+      height: 30vh;
+      width: 100%;
+      margin: 1px; }
+  .buttonContainer {
+    height: 30vh;
+    width: 100vw;
+    margin: 10px 0; } }
+
+@media screen and (max-width: 830px) {
+  #mobileMap {
+    display: inline; }
+  footer {
+    width: 100%;
+    display: block; }
+  #footerContent {
+    flex: none;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    right: 0; }
+  #footerContentContainer {
+    width: 100%;
+    display: block; }
+  #footerContent2 {
+    display: block;
+    display: none; }
+  .hoursSection {
+    flex: none;
+    margin: 0px 0;
+    width: 100vw;
+    padding: 20px; } }
+
+@media screen and (max-width: 800px) {
+  #fiatHeading {
+    font-size: .8em; }
+  #rightContent {
+    display: none; }
+  #cellRightContent {
+    display: block;
+    top: 50px;
+    position: absolute;
+    right: 40px;
+    padding: 20px 0 20px 20px;
+    margin: 0;
+    border: 0;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.3; }
+    #cellRightContent strong {
+      padding: 0 10px 0 0;
+      color: #27282a; }
+  header {
+    height: 160px; }
+    header img {
+      display: none; } }
+
+@media screen and (max-width: 550px) {
+  #fiatHeading {
+    font-size: .55em; } }
