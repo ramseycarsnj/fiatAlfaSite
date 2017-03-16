@@ -8,6 +8,7 @@ $(document).ready(function() {
     $('#footerButton').hide();
     $('footer').css({'height' : '100vh'});
     $('#footerHideButton').show();
+    $( "#footerContent" ).show().delay( 300 ).fadeIn( 400 );
   });
   $('#footerHideButton').click(function(){
     $('#footerHideButton').hide();
